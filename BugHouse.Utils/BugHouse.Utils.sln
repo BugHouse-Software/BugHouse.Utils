@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugHouse.Utils", "BugHouse.Utils.csproj", "{0E0ACDBC-C8F9-4920-8111-8B38913D3C5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugHouse.Utils.Testes", "..\BugHouse.Utils.Testes\BugHouse.Utils.Testes.csproj", "{B4193C22-AD1E-48E5-B6F8-7C37B81BCCED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E0ACDBC-C8F9-4920-8111-8B38913D3C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E0ACDBC-C8F9-4920-8111-8B38913D3C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E0ACDBC-C8F9-4920-8111-8B38913D3C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E0ACDBC-C8F9-4920-8111-8B38913D3C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4193C22-AD1E-48E5-B6F8-7C37B81BCCED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4193C22-AD1E-48E5-B6F8-7C37B81BCCED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4193C22-AD1E-48E5-B6F8-7C37B81BCCED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4193C22-AD1E-48E5-B6F8-7C37B81BCCED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4F59DFE-A6F9-4F18-8F4A-AB6432D2C7FA}
+	EndGlobalSection
+EndGlobal
