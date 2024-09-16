@@ -2,7 +2,7 @@
 using Microsoft.IdentityModel.Tokens;
 using System;
 
-namespace BrandBrasil.Utils.Criptografia
+namespace BugHouse.Utils.Criptografia
 {
     public interface IJwtService
     {

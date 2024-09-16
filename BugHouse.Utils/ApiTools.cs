@@ -1,8 +1,7 @@
-﻿using BrandBrasil.Utils.Criptografia;
-using BugHouse.Utils.Criptografia;
+﻿using System;
 using BugHouse.Utils.Translates;
+using BugHouse.Utils.Criptografia;
 using Microsoft.Extensions.DependencyInjection;
-using System;
 using static BugHouse.Utils.Translates.TranslatationTools;
 
 namespace BugHouse.Utils

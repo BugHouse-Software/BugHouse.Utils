@@ -80,7 +80,7 @@ namespace BugHouse.Utils.Extensions
                 options.DocExpansion(DocExpansion.List);
             });
         }
-        public static void AddSwagger(this IServiceCollection services, bool hasJwt = true, bool hasDomain = true, string sufixTitle = "", string sufixDescription = "")
+        public static void AddSwagger(this IServiceCollection services, string licenceName, bool hasJwt = true, bool hasDomain = true, string sufixTitle = "", string sufixDescription = "")
         {
             if (services == null) throw new ArgumentNullException(nameof(services));
             var currentAssembly = Assembly.GetCallingAssembly();
@@ -103,7 +103,7 @@ namespace BugHouse.Utils.Extensions
                             Description = $"{(description.IsDeprecated ? $"{assemblyDescription} - DEPRECATED" : $"{assemblyDescription}")} - {fvi.FileVersion}",
                             License = new OpenApiLicense
                             {
-                                Name = "Brand Brasil",
+                                Name = licenceName,
 
                             }
                         });

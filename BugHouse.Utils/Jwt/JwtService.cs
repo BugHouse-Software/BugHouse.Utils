@@ -15,7 +15,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BrandBrasil.Utils.Criptografia
+namespace BugHouse.Utils.Criptografia
 {
     internal class JwtService : IJwtService
     {
